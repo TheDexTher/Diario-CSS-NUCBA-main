@@ -281,16 +281,16 @@ p.imagen-hack{
 @media (max-width: 768px) and (min-width: 0px){
     .boton{
         display: block;
-        margin: 19px 15px 0px 0px;
+        margin: 25px 15px 0px 0px;
         width: 8%;
     }
     .nav-list-father{
         display: block;
         position: absolute;
         width: 100%;
-        background-color: #37a3ebaf;
+        background-color: #37a3ebd0;
         right: 0px;
-        top: 48px;
+        top: 78px;
     }
     .buton{
         width: 100%;
@@ -300,11 +300,15 @@ p.imagen-hack{
     .boton:hover ul{
         display: block;
     }
+    .news-content{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     h1{
         font-size: 2em;
         width: 80%;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         
     }
     h3{
@@ -345,7 +349,7 @@ p.imagen-hack{
 
     }
     figure{
-        width: 90% !important;
+        width: 100% !important;
         margin-top: 20px;
         margin-bottom: 20px;
     }
