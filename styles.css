@@ -1,0 +1,357 @@
+/* general */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{  
+    padding: 0%;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    padding: 0px;
+    
+
+}
+
+h2{
+    font-size: 2.3em;
+    color: #2f3542;
+    padding: 1%;
+   
+}
+
+h1{
+    padding: 1%;
+    color: #2f3542;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 3em;
+    margin-left: 2.5%;
+}
+h3{
+    font-size: 2.3em;
+    color: #2d83bd;
+    font-family: "Roboto";
+    font-weight: 500;
+    padding: 1%;
+}
+.subtitle p{
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0%;
+}
+figcaption{
+
+    padding: 2%;
+}
+p{
+    font-weight: lighter;
+    color: #2f3542;
+    padding: 1%;
+}
+/* header */
+
+.suscribite{
+    padding: 3%;
+    background-color: #3498db;
+    color: #dfe6e9;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+    
+}
+
+header{
+
+    position: sticky;
+    top: 0px;
+    background-color: rgba(235, 235, 235, 0.672);
+    z-index: 1;
+
+}
+
+header img{
+    width: 20%;
+    margin: auto;
+    display: block;
+    padding: 1%;
+}
+
+/* navbar */
+.boton{
+    width: 30%;
+}
+nav{
+    background-color: #1e8fffb9;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-list-father{
+    margin-left: auto;
+    margin-right: 0%;
+    display: flex;
+    padding: 3%;
+}
+.nav-list {
+    display: block;
+    text-transform: capitalize;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3% 3.7%;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color: #2f3542;
+}
+.nav-list :hover{
+    color: #0f1114;
+}
+ul{
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+/* Princial */
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #2f3542;
+}
+.principal{
+    display: flex;
+    padding: 0% 3%;
+    justify-content: space-between;
+}
+
+/* Noticias */
+
+main{
+    margin: auto;
+    width: 65%;
+    padding: 3%;
+}
+figure{
+    width: 70%;
+    margin: 2% auto;
+    
+}
+
+main img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0% 0% 3% 0%;
+ 
+}
+
+main .news-content{
+    display: flex;
+
+
+}
+main .news-content p{
+  font-size: 1.2em;
+  font-weight: normal;
+}
+.subtitle{
+    font-weight: normal;
+    font-size: 1.1em;
+    padding: 1%;
+    color: #363d4d;
+}
+/* Aside */
+
+aside{
+    width: 30%;
+    border-left: 2px solid #0b355ec9;
+    padding: 1%;
+}
+aside .anuncios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+caption{
+    font-style: italic;
+    margin: 3% 0%;
+    padding: 2%;
+}
+.buton{
+    display: none;
+}
+.epigrafe{
+    font-size: 1em;
+    font-family: "Roboto";
+    font-weight: 500;
+    padding: 0% 3%;
+
+   
+}
+aside img{
+    width: 90%;
+    padding: 1%;
+}
+/* Form */
+.suscripcion{
+    margin: auto;
+    border-top: 2px solid rgba(150, 150, 150, 0.535);
+    background-color: rgb(242, 242, 242);
+    padding: 2% 0 0 5%;
+    box-shadow: 1px 5px 15px 1px rgba(186, 186, 186, 0.515) ;
+    margin-bottom: 3%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label.user-info{
+    justify-content: space-between;
+    display: flex;
+    width: 30%;
+
+}
+form input .user-tipe{
+    width: 50%;
+
+}
+form input, form select{
+    padding: 12px 20px;
+}
+.user-tipe input{
+    margin-right: 15%;
+}
+
+form label.user-tipe{
+    width: 25%;
+}
+form button{
+    width: 20%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    margin: auto;
+    border-color: rgba(35, 31, 32, 0.515);
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+/* Hacked */
+
+.imagen-hack{
+    filter: saturate(100%);
+    text-align: center;
+    width: 50%;
+}
+p.imagen-hack{
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/* Media queries */
+
+
+@media (max-width: 1024px) and (min-width: 769px){
+    h2{
+        font-size: 1.7em;
+    }
+    form label.user-info{
+
+        width: 35%;
+    }
+    ul{
+        font-size: 0.9em;
+    }
+    
+
+}
+@media (max-width: 768px) and (min-width: 0px){
+    .boton{
+        display: block;
+        margin: 7px 15px 0px 0px;
+        width: 8%;
+    }
+    .nav-list-father{
+        display: block;
+        position: absolute;
+        width: 100%;
+        background-color: #37a3ebaf;
+        right: 0px;
+        top: 48px;
+    }
+    .buton{
+        width: 100%;
+        display: block;
+        display: block;
+    }
+    .boton:hover ul{
+        display: block;
+    }
+    h1{
+        font-size: 2em;
+        width: 80%;
+    }
+    h3{
+        font-size: 1.6em;
+    }
+    .nav-list-father{
+        display: none;
+    }
+
+    div.principal{
+        flex-direction: column;
+    }
+  
+    .titulo{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.7em;
+        text-align: left;
+    }
+    main{
+        width: 100%;
+        padding: 0;
+    }
+    aside{
+        width: 100%;
+        border-left: 0px;
+        border-top: 1px solid rgb(157, 153, 153);
+    }
+    h3{
+        margin-bottom: 10px;
+    }
+    form label.user-info{
+
+        width: 80%;
+    }
+    button.boton{
+        width: 50%;
+
+    }
+    figure{
+        width: 90% !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .suscribite{
+        font-size: .9em;
+        text-align: left;
+    }
+}
+
+
+
+
