@@ -24,6 +24,7 @@ h2{
 }
 
 h1{
+    align-self: center;
     padding: 1%;
     color: #2f3542;
     font-family: 'Bebas Neue', cursive;
@@ -83,9 +84,7 @@ header img{
 }
 
 /* navbar */
-.boton{
-    width: 30%;
-}
+
 nav{
     background-color: #1e8fffb9;
     justify-content: space-between;
@@ -95,15 +94,21 @@ nav{
     margin-left: auto;
     margin-right: 0%;
     display: flex;
-    padding: 3%;
+
+    width: 30%;
+    padding: 2.5% 0% 2.5% 2.5%;
+}
+.boton{
+    display: none;
 }
 .nav-list {
+    align-self: center;
     display: block;
     text-transform: capitalize;
     font-size: 1.8em;
     font-weight: bold;
     text-decoration: none;
-    padding: 3% 3.7%;
+    padding: 0% 3.7%;
     
 }
 .nav-list a{
@@ -125,11 +130,7 @@ ul{
     font-size: 2.5em;
     color: #2f3542;
 }
-.principal{
-    display: flex;
-    padding: 0% 3%;
-    justify-content: space-between;
-}
+
 
 /* Noticias */
 
@@ -246,7 +247,25 @@ form button{
     font-size: 1.1em;
     font-weight: lighter;
 }
-
+/*footer*/
+footer{
+    background-color:#006fdf;
+    width: 98%;
+    margin: auto;
+}
+.title-footer{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #010d27;
+}
+.subtitle-footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    color: #010d27;
+    text-align: center;
+    font-weight: lighter;
+}
 /* Hacked */
 
 .imagen-hack{
@@ -264,7 +283,7 @@ p.imagen-hack{
 /* Media queries */
 
 
-@media (max-width: 1024px) and (min-width: 769px){
+@media (max-width: 1280px) and (min-width: 769px){
     h2{
         font-size: 1.7em;
     }
@@ -275,14 +294,18 @@ p.imagen-hack{
     ul{
         font-size: 0.9em;
     }
-    
+    .nav-list-father{
+        font-size: 1em;
+        width: 40%;
+    }    
 
 }
 @media (max-width: 768px) and (min-width: 0px){
     .boton{
         display: block;
-        margin: 25px 15px 0px 0px;
+        margin: 0% 15px;
         width: 8%;
+        align-self: center;
     }
     .nav-list-father{
         display: block;
